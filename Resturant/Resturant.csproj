@@ -69,6 +69,12 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\MainOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainOptions.Designer.cs">
+      <DependentUpon>MainOptions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202212131759367_intial.cs" />
     <Compile Include="Migrations\202212131759367_intial.designer.cs">
       <DependentUpon>202212131759367_intial.cs</DependentUpon>
