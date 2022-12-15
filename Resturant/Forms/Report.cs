@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Resturant.Forms
 {
-    public partial class MainForm : Form
+    public partial class Report : Form
     {
-        public MainForm()
+        public Report()
         {
             InitializeComponent();
         }
@@ -20,7 +20,6 @@ namespace Resturant.Forms
         private void button2_Click(object sender, EventArgs e)
         {
             Close();
-
         }
     }
 }

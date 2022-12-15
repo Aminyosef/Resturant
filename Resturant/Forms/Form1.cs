@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Resturant.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,11 +31,12 @@ namespace Resturant
             {
                 activeForm.Close();
             }
+            activeForm= cForm;
             ActiveButton(btnSender);
             cForm.TopLevel = false;
             cForm.FormBorderStyle= FormBorderStyle.None;
             cForm.Dock= DockStyle.Fill;
-            pnlMain.Container.Add(cForm);
+            pnlMain.Controls.Add(cForm);
             pnlMain.Tag= cForm;
             cForm.BringToFront();
             cForm.Show();
@@ -103,24 +105,26 @@ namespace Resturant
 
         private void btnPOS_Click(object sender, EventArgs e)
         {
-            ActiveButton(sender);
+            
+            OpenChildform(new MainForm(), sender);
         }
 
         private void btnSetup_Click(object sender, EventArgs e)
         {
-            ActiveButton(sender);
+            OpenChildform(new MainSetup(),sender);
 
         }
 
         private void btnReport_Click(object sender, EventArgs e)
         {
-            ActiveButton(sender);
+            OpenChildform(new Report(), sender);
+           
 
         }
 
         private void btnOption_Click(object sender, EventArgs e)
         {
-            ActiveButton(sender);
+            OpenChildform(new MainOptions(), sender);
 
         }
 

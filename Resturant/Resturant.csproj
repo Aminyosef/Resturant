@@ -69,17 +69,29 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MainOptions.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\MainOptions.Designer.cs">
       <DependentUpon>MainOptions.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\MainPOS.cs">
+    <Compile Include="Forms\MainSetup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\MainPOS.Designer.cs">
-      <DependentUpon>MainPOS.cs</DependentUpon>
+    <Compile Include="Forms\MainSetup.Designer.cs">
+      <DependentUpon>MainSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202212131759367_intial.cs" />
     <Compile Include="Migrations\202212131759367_intial.designer.cs">
@@ -91,8 +103,17 @@
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MainPOS.resx">
-      <DependentUpon>MainPOS.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainOptions.resx">
+      <DependentUpon>MainOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainSetup.resx">
+      <DependentUpon>MainSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212131759367_intial.resx">
       <DependentUpon>202212131759367_intial.cs</DependentUpon>

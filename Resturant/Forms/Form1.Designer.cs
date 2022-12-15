@@ -178,7 +178,7 @@
             this.pnlTitl.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTitl.Location = new System.Drawing.Point(192, 0);
             this.pnlTitl.Name = "pnlTitl";
-            this.pnlTitl.Size = new System.Drawing.Size(861, 108);
+            this.pnlTitl.Size = new System.Drawing.Size(926, 108);
             this.pnlTitl.TabIndex = 1;
             // 
             // linkLabel1
@@ -199,7 +199,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(590, 9);
+            this.label1.Location = new System.Drawing.Point(655, 9);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label1.Size = new System.Drawing.Size(48, 22);
@@ -229,14 +229,14 @@
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(192, 108);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(861, 484);
+            this.pnlMain.Size = new System.Drawing.Size(926, 484);
             this.pnlMain.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1053, 592);
+            this.ClientSize = new System.Drawing.Size(1118, 592);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlTitl);
             this.Controls.Add(this.pnlMenu);

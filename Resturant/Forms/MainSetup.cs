@@ -36,5 +36,16 @@ namespace Resturant.Forms
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Close();
+
+        }
+
+        private void MainSetup_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
