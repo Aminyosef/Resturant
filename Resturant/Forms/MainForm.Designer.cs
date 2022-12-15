@@ -36,6 +36,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.Location = new System.Drawing.Point(28, 26);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 118);
