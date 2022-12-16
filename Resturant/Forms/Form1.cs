@@ -23,7 +23,7 @@ namespace Resturant
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.ControlBox = false;
         }
         private void OpenChildform(Form cForm,object btnSender)
         {
@@ -146,6 +146,11 @@ namespace Resturant
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("http://migawatt.com/");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

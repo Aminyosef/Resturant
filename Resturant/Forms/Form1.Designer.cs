@@ -38,6 +38,7 @@
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlTitl = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.lblItem = new System.Windows.Forms.Label();
@@ -74,10 +75,10 @@
             this.btnOption.ForeColor = System.Drawing.Color.Black;
             this.btnOption.Image = ((System.Drawing.Image)(resources.GetObject("btnOption.Image")));
             this.btnOption.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOption.Location = new System.Drawing.Point(0, 354);
+            this.btnOption.Location = new System.Drawing.Point(0, 351);
             this.btnOption.Name = "btnOption";
             this.btnOption.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnOption.Size = new System.Drawing.Size(192, 82);
+            this.btnOption.Size = new System.Drawing.Size(192, 81);
             this.btnOption.TabIndex = 4;
             this.btnOption.Text = "Options";
             this.btnOption.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -95,10 +96,10 @@
             this.btnReport.ForeColor = System.Drawing.Color.Black;
             this.btnReport.Image = ((System.Drawing.Image)(resources.GetObject("btnReport.Image")));
             this.btnReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReport.Location = new System.Drawing.Point(0, 272);
+            this.btnReport.Location = new System.Drawing.Point(0, 270);
             this.btnReport.Name = "btnReport";
             this.btnReport.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnReport.Size = new System.Drawing.Size(192, 82);
+            this.btnReport.Size = new System.Drawing.Size(192, 81);
             this.btnReport.TabIndex = 3;
             this.btnReport.Text = "Reporting";
             this.btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -116,10 +117,10 @@
             this.btnSetup.ForeColor = System.Drawing.Color.Black;
             this.btnSetup.Image = ((System.Drawing.Image)(resources.GetObject("btnSetup.Image")));
             this.btnSetup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSetup.Location = new System.Drawing.Point(0, 190);
+            this.btnSetup.Location = new System.Drawing.Point(0, 189);
             this.btnSetup.Name = "btnSetup";
             this.btnSetup.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnSetup.Size = new System.Drawing.Size(192, 82);
+            this.btnSetup.Size = new System.Drawing.Size(192, 81);
             this.btnSetup.TabIndex = 2;
             this.btnSetup.Text = "SetUp";
             this.btnSetup.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -140,7 +141,7 @@
             this.btnPOS.Location = new System.Drawing.Point(0, 108);
             this.btnPOS.Name = "btnPOS";
             this.btnPOS.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnPOS.Size = new System.Drawing.Size(192, 82);
+            this.btnPOS.Size = new System.Drawing.Size(192, 81);
             this.btnPOS.TabIndex = 1;
             this.btnPOS.Text = "POS";
             this.btnPOS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -172,14 +173,27 @@
             // pnlTitl
             // 
             this.pnlTitl.BackColor = System.Drawing.Color.White;
+            this.pnlTitl.Controls.Add(this.button1);
             this.pnlTitl.Controls.Add(this.linkLabel1);
             this.pnlTitl.Controls.Add(this.label1);
             this.pnlTitl.Controls.Add(this.lblItem);
             this.pnlTitl.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTitl.Location = new System.Drawing.Point(192, 0);
             this.pnlTitl.Name = "pnlTitl";
-            this.pnlTitl.Size = new System.Drawing.Size(926, 108);
+            this.pnlTitl.Size = new System.Drawing.Size(1076, 108);
             this.pnlTitl.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(970, 47);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 55);
+            this.button1.TabIndex = 3;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // linkLabel1
             // 
@@ -199,7 +213,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(655, 9);
+            this.label1.Location = new System.Drawing.Point(805, 9);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label1.Size = new System.Drawing.Size(48, 22);
@@ -229,14 +243,14 @@
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(192, 108);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(926, 484);
+            this.pnlMain.Size = new System.Drawing.Size(1076, 484);
             this.pnlMain.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1118, 592);
+            this.ClientSize = new System.Drawing.Size(1268, 592);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlTitl);
             this.Controls.Add(this.pnlMenu);
@@ -267,6 +281,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Panel pnlMain;
+        private System.Windows.Forms.Button button1;
     }
 }
 
