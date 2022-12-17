@@ -180,7 +180,7 @@
             this.pnlTitl.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTitl.Location = new System.Drawing.Point(192, 0);
             this.pnlTitl.Name = "pnlTitl";
-            this.pnlTitl.Size = new System.Drawing.Size(1076, 108);
+            this.pnlTitl.Size = new System.Drawing.Size(992, 108);
             this.pnlTitl.TabIndex = 1;
             // 
             // button1
@@ -188,7 +188,7 @@
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(970, 47);
+            this.button1.Location = new System.Drawing.Point(886, 47);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 55);
             this.button1.TabIndex = 3;
@@ -213,7 +213,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(805, 9);
+            this.label1.Location = new System.Drawing.Point(721, 9);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label1.Size = new System.Drawing.Size(48, 22);
@@ -243,19 +243,21 @@
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(192, 108);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(1076, 484);
+            this.pnlMain.Size = new System.Drawing.Size(992, 484);
             this.pnlMain.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1268, 592);
+            this.ClientSize = new System.Drawing.Size(1184, 592);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlTitl);
             this.Controls.Add(this.pnlMenu);
+            this.MinimumSize = new System.Drawing.Size(1200, 631);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Resturant";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlMenu.ResumeLayout(false);
             this.pnlLogo.ResumeLayout(false);

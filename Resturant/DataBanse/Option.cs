@@ -14,6 +14,8 @@ namespace Resturant.DataBanse
         public string RestPhone { get; set; }
         public string RestAdd1 { get; set; }
         public string RestAdd2 { get; set; }
+        public string Recipt1 { get; set; }
+        public string Recipt2 { get; set; }
         public byte[] RestLogo { get; set; }
     }
 }

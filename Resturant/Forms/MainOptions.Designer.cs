@@ -31,21 +31,25 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainOptions));
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtRestName = new System.Windows.Forms.TextBox();
+            this.txtRestPhone = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtRestAdd1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtRestAdd2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtPrintName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtLogo = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picBox = new System.Windows.Forms.PictureBox();
             this.btnPic = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.txtRcp2 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtRcpt1 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -71,21 +75,21 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Resturant Name";
             // 
-            // textBox1
+            // txtRestName
             // 
-            this.textBox1.Location = new System.Drawing.Point(162, 44);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 22);
-            this.textBox1.TabIndex = 4;
+            this.txtRestName.Location = new System.Drawing.Point(162, 44);
+            this.txtRestName.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtRestName.Name = "txtRestName";
+            this.txtRestName.Size = new System.Drawing.Size(180, 22);
+            this.txtRestName.TabIndex = 4;
             // 
-            // textBox2
+            // txtRestPhone
             // 
-            this.textBox2.Location = new System.Drawing.Point(162, 74);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(178, 22);
-            this.textBox2.TabIndex = 6;
+            this.txtRestPhone.Location = new System.Drawing.Point(162, 74);
+            this.txtRestPhone.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtRestPhone.Name = "txtRestPhone";
+            this.txtRestPhone.Size = new System.Drawing.Size(178, 22);
+            this.txtRestPhone.TabIndex = 6;
             // 
             // label2
             // 
@@ -97,13 +101,13 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Resturant Phone";
             // 
-            // textBox3
+            // txtRestAdd1
             // 
-            this.textBox3.Location = new System.Drawing.Point(162, 104);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(180, 22);
-            this.textBox3.TabIndex = 8;
+            this.txtRestAdd1.Location = new System.Drawing.Point(162, 104);
+            this.txtRestAdd1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtRestAdd1.Name = "txtRestAdd1";
+            this.txtRestAdd1.Size = new System.Drawing.Size(180, 22);
+            this.txtRestAdd1.TabIndex = 8;
             // 
             // label3
             // 
@@ -115,13 +119,13 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Address1";
             // 
-            // textBox4
+            // txtRestAdd2
             // 
-            this.textBox4.Location = new System.Drawing.Point(162, 134);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(180, 22);
-            this.textBox4.TabIndex = 10;
+            this.txtRestAdd2.Location = new System.Drawing.Point(162, 134);
+            this.txtRestAdd2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtRestAdd2.Name = "txtRestAdd2";
+            this.txtRestAdd2.Size = new System.Drawing.Size(180, 22);
+            this.txtRestAdd2.TabIndex = 10;
             // 
             // label4
             // 
@@ -133,13 +137,13 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Addres2";
             // 
-            // textBox5
+            // txtPrintName
             // 
-            this.textBox5.Location = new System.Drawing.Point(162, 164);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(180, 22);
-            this.textBox5.TabIndex = 12;
+            this.txtPrintName.Location = new System.Drawing.Point(162, 164);
+            this.txtPrintName.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtPrintName.Name = "txtPrintName";
+            this.txtPrintName.Size = new System.Drawing.Size(180, 22);
+            this.txtPrintName.TabIndex = 12;
             // 
             // label5
             // 
@@ -151,13 +155,13 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Printer Name";
             // 
-            // textBox6
+            // txtLogo
             // 
-            this.textBox6.Location = new System.Drawing.Point(162, 331);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(133, 22);
-            this.textBox6.TabIndex = 14;
+            this.txtLogo.Location = new System.Drawing.Point(162, 331);
+            this.txtLogo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtLogo.Name = "txtLogo";
+            this.txtLogo.Size = new System.Drawing.Size(178, 22);
+            this.txtLogo.TabIndex = 14;
             // 
             // label6
             // 
@@ -170,24 +174,26 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "Logo";
             // 
-            // pictureBox1
+            // picBox
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(162, 192);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(178, 127);
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
+            this.picBox.Location = new System.Drawing.Point(162, 192);
+            this.picBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.picBox.Name = "picBox";
+            this.picBox.Size = new System.Drawing.Size(178, 127);
+            this.picBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox.TabIndex = 15;
+            this.picBox.TabStop = false;
             // 
             // btnPic
             // 
-            this.btnPic.Location = new System.Drawing.Point(309, 328);
+            this.btnPic.Location = new System.Drawing.Point(344, 328);
             this.btnPic.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnPic.Name = "btnPic";
-            this.btnPic.Size = new System.Drawing.Size(31, 27);
+            this.btnPic.Size = new System.Drawing.Size(37, 27);
             this.btnPic.TabIndex = 16;
             this.btnPic.Text = "...";
             this.btnPic.UseVisualStyleBackColor = true;
+            this.btnPic.Click += new System.EventHandler(this.btnPic_Click);
             // 
             // btnSave
             // 
@@ -200,26 +206,67 @@
             this.btnSave.Size = new System.Drawing.Size(119, 113);
             this.btnSave.TabIndex = 17;
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // txtRcp2
+            // 
+            this.txtRcp2.Location = new System.Drawing.Point(629, 74);
+            this.txtRcp2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtRcp2.Name = "txtRcp2";
+            this.txtRcp2.Size = new System.Drawing.Size(180, 22);
+            this.txtRcp2.TabIndex = 21;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(517, 74);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(73, 15);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "Recipt Line2";
+            // 
+            // txtRcpt1
+            // 
+            this.txtRcpt1.Location = new System.Drawing.Point(629, 44);
+            this.txtRcpt1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtRcpt1.Name = "txtRcpt1";
+            this.txtRcpt1.Size = new System.Drawing.Size(180, 22);
+            this.txtRcpt1.TabIndex = 19;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(517, 44);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(73, 15);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Recipt Line1";
             // 
             // MainOptions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1054, 541);
+            this.Controls.Add(this.txtRcp2);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtRcpt1);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnPic);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.picBox);
+            this.Controls.Add(this.txtLogo);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtPrintName);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtRestAdd2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtRestAdd1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtRestPhone);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtRestName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -227,7 +274,7 @@
             this.Name = "MainOptions";
             this.Text = "MainOptions";
             this.Load += new System.EventHandler(this.MainOptions_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -236,19 +283,23 @@
         #endregion
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtRestName;
+        private System.Windows.Forms.TextBox txtRestPhone;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtRestAdd1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtRestAdd2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtPrintName;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtLogo;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picBox;
         private System.Windows.Forms.Button btnPic;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.TextBox txtRcp2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtRcpt1;
+        private System.Windows.Forms.Label label8;
     }
 }

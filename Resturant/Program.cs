@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Resturant.DataBanse;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace Resturant
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            DBConnection db = new DBConnection();
             Application.Run(new Form1());
         }
     }

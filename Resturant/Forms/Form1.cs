@@ -27,6 +27,7 @@ namespace Resturant
         }
         private void OpenChildform(Form cForm,object btnSender)
         {
+            Cursor = Cursors.WaitCursor;
             if (activeForm!=null)
             {
                 activeForm.Close();
@@ -40,6 +41,7 @@ namespace Resturant
             pnlMain.Tag= cForm;
             cForm.BringToFront();
             cForm.Show();
+            Cursor= Cursors.Default;
 
         }
         private Color SelectThems()
