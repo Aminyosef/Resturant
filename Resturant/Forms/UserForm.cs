@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -147,6 +148,15 @@ namespace Resturant.Forms
             }
             
             loaddata();
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+            var search = db.Users.Where(x => x.FullName.Contains(txtSearch.Text) || x.Email.Contains(txtSearch.Text) || x.Phone.Contains(txtSearch.Text) || txtSearch.Text == null).ToList();
+                        var result=from us in search select new { No = us.id, us.UserName, us.FullName, us.Phone, us.Email };
+            dataGridView1.DataSource = result.ToList();
+
         }
     }
 }
