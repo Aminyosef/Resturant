@@ -160,6 +160,7 @@
             this.txtLogo.Location = new System.Drawing.Point(162, 331);
             this.txtLogo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtLogo.Name = "txtLogo";
+            this.txtLogo.ReadOnly = true;
             this.txtLogo.Size = new System.Drawing.Size(178, 22);
             this.txtLogo.TabIndex = 14;
             // 

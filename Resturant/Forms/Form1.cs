@@ -6,6 +6,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -155,4 +156,8 @@ namespace Resturant
             Application.Exit();
         }
     }
+    /// <summary>
+    /// A class that used to modify a window process.
+    /// </summary>
+  
 }

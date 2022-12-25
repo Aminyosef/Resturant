@@ -12,20 +12,18 @@ namespace Resturant.Forms
 {
     public partial class MainSetup : Form
     {
+        
         public MainSetup()
         {
             InitializeComponent();
         }
-
+       
         private void button4_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -45,6 +43,19 @@ namespace Resturant.Forms
 
         private void MainSetup_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+           // OpenChildform(new Users(), sender);
+           UserForm users=new UserForm();
+            users.ShowDialog();
 
         }
     }

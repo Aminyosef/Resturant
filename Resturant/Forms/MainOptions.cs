@@ -88,7 +88,8 @@ namespace Resturant.Forms
                     upOption.PrintName = txtPrintName.Text;
                     upOption.Recipt1 = txtRcpt1.Text;
                     upOption.Recipt2 = txtRcp2.Text;
-                    upOption.RestLogo = File.Exists(txtLogo.Text) ? File.ReadAllBytes(txtLogo.Text) : null;
+                    if (txtLogo.Text != string.Empty)
+                        upOption.RestLogo = File.Exists(txtLogo.Text) ? File.ReadAllBytes(txtLogo.Text) : null;
                     db.SaveChanges();
                 }
                

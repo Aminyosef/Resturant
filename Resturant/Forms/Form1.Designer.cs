@@ -61,7 +61,7 @@
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(192, 592);
+            this.pnlMenu.Size = new System.Drawing.Size(192, 661);
             this.pnlMenu.TabIndex = 0;
             // 
             // btnOption
@@ -243,18 +243,18 @@
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(192, 108);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(992, 484);
+            this.pnlMain.Size = new System.Drawing.Size(992, 553);
             this.pnlMain.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 592);
+            this.ClientSize = new System.Drawing.Size(1184, 661);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlTitl);
             this.Controls.Add(this.pnlMenu);
-            this.MinimumSize = new System.Drawing.Size(1200, 631);
+            this.MinimumSize = new System.Drawing.Size(1200, 700);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resturant";
