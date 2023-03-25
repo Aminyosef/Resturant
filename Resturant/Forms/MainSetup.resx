@@ -121,7 +121,7 @@
   <data name="button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABaCAYAAABOkvOJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAOiFJREFUeF7tnAVYVtn69plxbFAQ6e6SFERABBWUEAFFVBAUAwOLEBWQEJAURUGw
+        vQAADr0BR/uQrQAAOiFJREFUeF7tnAVYVtn69plxbFAQ6e6SFERABBWUEAFFVBAUAwOLEBWQEJAURUGw
         u7GDklREQmzswO7Arrm/Zy1ePDMn5owex5n/+c5zXc+13v0CL7B++35i7bW3EP5nfyn7H5C/mP0PyF/M
         /gfkL2b/A/IXs/8B+YvZ/xdAHjx4gMOHD2Pv3r3c8/PzUVVVhXv37gm+469j/7VAPnz4gJSUFDg6OsLN
         zQ3+/v4ICgpCREQE9+nTp2PcuHEYNmwYYmNjUVFRIfjJP9f+K4Fs2rQJhoaGcHFxgY+PD5/4qVOnIjQ0
@@ -543,7 +543,7 @@
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABaCAYAAABOkvOJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAGhBJREFUeF7tXWlwlNWatmp+TN0/d2qmpmqman7MzHXuqCOy7xC2sEPYQQREdkQQ
+        vQAADr0BR/uQrQAAGhBJREFUeF7tXWlwlNWatmp+TN0/d2qmpmqman7MzHXuqCOy7xC2sEPYQQREdkQQ
         uMhy2UNAEQUVFYUrCIKyE1aFsLlcF0hCWEISISyBrJ1OurMvBHjmfU7ni91fn07vAa/3VD3VX3/r+d7n
         vOs5nTyBv7fHqv0qCHnw4AGqq6tRUVGB0tJSFBcXw263w2azaVFUVKTOKSsrU9fwWt7j19AeO0Lu37+P
         yspKlJSUoLCwEBaLBfn5+S6wWq0+wfka3ocgYbx3VVWVetbj1h4LQu7du6dGPgkwC72goCBk0JFFgqhJ
@@ -660,7 +660,7 @@
   <data name="button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABaCAYAAABOkvOJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAEsFJREFUeF7tXQt4VdWVviAPeQZIQoAkEAiIlSpY7UOdqc6DqY9BBRLeyCtRKL4q
+        vQAADr0BR/uQrQAAEsFJREFUeF7tXQt4VdWVviAPeQZIQoAkEAiIlSpY7UOdqc6DqY9BBRLeyCtRKL4q
         rZbasVV07OdIddrifFQLRavWWju+prSiWNQk3ASSQAgQ3iSQkvB+BMIjrPnXvnvn7rvvPvfeJOeEgFnf
         9383OWedtddZ/1pr732Se6+vtraWouHUqVP1OH36NNXV1VGrRJdz586FxM+Mqw1RCVHGzpw5I4eJLMfP
         naSK2moqP1VNFZcwyk9VUeXpA3Sm7qy8c2fhBNZjacZYR0RC1MWRKuIvB/30va2/opsK51Jqbib1yxmD

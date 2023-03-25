@@ -44,6 +44,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Xml.Linq" />
@@ -63,11 +64,23 @@
     <Compile Include="DataBanse\Option.cs" />
     <Compile Include="DataBanse\Payment.cs" />
     <Compile Include="DataBanse\User.cs" />
+    <Compile Include="Forms\CategoryFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CategoryFrm.Designer.cs">
+      <DependentUpon>CategoryFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\itemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\itemForm.Designer.cs">
+      <DependentUpon>itemForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
@@ -99,6 +112,9 @@
     <Compile Include="Forms\UserForm.Designer.cs">
       <DependentUpon>UserForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\ComboBoxHelper.cs" />
+    <Compile Include="Helpers\CrudHelper.cs" />
+    <Compile Include="Helpers\DatabaseHelper.cs" />
     <Compile Include="Migrations\202212131759367_intial.cs" />
     <Compile Include="Migrations\202212131759367_intial.designer.cs">
       <DependentUpon>202212131759367_intial.cs</DependentUpon>
@@ -110,8 +126,14 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\CategoryFrm.resx">
+      <DependentUpon>CategoryFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\itemForm.resx">
+      <DependentUpon>itemForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

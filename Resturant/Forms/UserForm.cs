@@ -31,6 +31,7 @@ namespace Resturant.Forms
                 txtPass.Text = user.Password;
                 txtPhone.Text = user.Phone;
                 txtUName.Text = user.UserName;
+                UID = user.id;
 
             }
             loaddata();
@@ -156,6 +157,11 @@ namespace Resturant.Forms
             var search = db.Users.Where(x => x.FullName.Contains(txtSearch.Text) || x.Email.Contains(txtSearch.Text) || x.Phone.Contains(txtSearch.Text) || txtSearch.Text == null).ToList();
                         var result=from us in search select new { No = us.id, us.UserName, us.FullName, us.Phone, us.Email };
             dataGridView1.DataSource = result.ToList();
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }
